@@ -1,7 +1,7 @@
 # foundmeXSS
 found xss
 
-'''
+```
 usage: foundmeXSS.py [-h] -u URL -w WORDLIST -c COOKIE [-o OUTPUT]
 
 optional arguments:
@@ -13,10 +13,10 @@ optional arguments:
                         Ör: 'Cookie': 'PHPSESSID=d143rj8718t2fl67a4jv4tb2s7; security=low'
   -o OUTPUT, --output OUTPUT
                         Save to file
-'''
+```
 
 
-'''
+```
 python3 foundmeXSS.py -u http://192.168.1.34/vulnerabilities/xss_r/?name= -w xss_words.txt -c 'Cookie: PHPSESSID=s76is87c2oivfl13r8d2n7jo06; security=low' -o test
 
-'''
+```
