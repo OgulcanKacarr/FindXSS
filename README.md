@@ -1,5 +1,5 @@
-# foundmeXSS
-found xss
+# FoundmeXSS
+## Found xss
 
 ```
 usage: foundmeXSS.py [-h] -u URL -w WORDLIST -c COOKIE [-o OUTPUT]
@@ -15,6 +15,7 @@ optional arguments:
                         Save to file
 ```
 
+## Usage
 
 ```
 python3 foundmeXSS.py -u http://192.168.1.34/vulnerabilities/xss_r/?name= -w xss_words.txt -c 'Cookie: PHPSESSID=s76is87c2oivfl13r8d2n7jo06; security=low' -o test
